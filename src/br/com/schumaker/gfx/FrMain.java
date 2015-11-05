@@ -115,15 +115,14 @@ public class FrMain extends javax.swing.JFrame {
     }//GEN-LAST:event_menuOpenActionPerformed
 
     private void menuExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuExitActionPerformed
-        // TODO add your handling code here:
+        CoreFrMain.getInstance().exit();
     }//GEN-LAST:event_menuExitActionPerformed
 
     private void btBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btBackActionPerformed
-        // TODO add your handling code here:
+        CoreFrMain.getInstance().back();
     }//GEN-LAST:event_btBackActionPerformed
 
     private void btFowardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btFowardActionPerformed
-
         CoreFrMain.getInstance().foward();
     }//GEN-LAST:event_btFowardActionPerformed
 

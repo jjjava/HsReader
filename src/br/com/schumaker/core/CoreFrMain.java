@@ -59,11 +59,15 @@ public class CoreFrMain {
     }
 
     public void back() {
-
+        pageNumber--;
+        frMain.setPageNumber(pageNumber);
+        ini = end - 10240;
+        end = ini + 10240;
+        read();
     }
 
     public void exit() {
-
+        System.exit(0);
     }
 
     public FrMain getFrMain() {
